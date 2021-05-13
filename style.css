@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: rgb(243, 243, 243);
-}
-
 .animation{
     position: fixed;
     top: 0;
@@ -92,7 +88,7 @@ body {
 }
 
 .animation p{
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 10px;
     padding-top: 10px;
     animation: comingSoon 4s;
@@ -123,8 +119,9 @@ body {
 
 main{
    top: 0;
-    left: 0;
-    z-index: -1;
+   left: 0;
+   z-index: -1;
+   background: rgb(243, 243, 243);
   }
 
 .banner {
